@@ -1,0 +1,32 @@
+﻿using System;
+using System.IO;
+using Ionic.Zip;
+
+public class ZipFile
+{
+    public ZipFile()
+    {
+    }
+
+    public ZipOption AlternateEncodingUsage { get; set; }
+
+    public void AddDirectoryByName(string v)
+    {
+        
+    }
+
+    public void AddFile(string filePath, string v)
+    {
+        
+    }
+
+    public void Save(Stream outputStream)
+    {
+       
+    }
+
+    public void AddFile(object text1, object text2)
+    {
+        throw new NotImplementedException();
+    }
+}
